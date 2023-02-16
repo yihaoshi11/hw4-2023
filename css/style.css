@@ -1,0 +1,101 @@
+
+a.skip{
+  background: white;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: left 1s ease-out;
+  z-index: 1;
+  /* Requirement 1 code here -- Do not remove this comment. */
+
+  
+}
+
+
+  /* Requirement 2 code here -- Do not remove this comment. */
+
+
+  /* Requirement 3 code here -- Do not remove this comment. */
+
+
+  /* Requirement 4 code here -- Do not remove this comment. */
+
+
+  /* Requirement 5 code here -- Do not remove this comment. */
+
+  /* Requirement 6 code here -- Do not remove this comment. */
+
+
+  /* Requirement 7 code here -- Do not remove this comment. */
+  
+
+  /* Requirement 8 code here -- Do not remove this comment. */
+
+
+
+
+
+
+
+
+
+
+  /* Requirement 9 code here -- Do not remove this comment. */
+
+
+
+
+  /*Add the media query here.  Make sure to */
+
+@media {
+  nav{
+    padding-top: 35px;
+    /* Requirement 10 code here -- Do not remove this comment. */
+
+    text-align:right
+
+  }
+
+  nav li{
+    margin-left: 5%;
+    margin-right:0;
+  }
+
+  
+  /* Requirement 11 code here -- Do not remove this comment. */
+
+
+
+  /* Requirement 12 code here -- Do not remove this comment. */
+  
+
+
+  /* Requirement 13 code here -- Do not remove this comment. */
+ 
+
+  /* Requirement 14 code here -- Do not remove this comment. */
+ 
+
+  /* Requirement 15 code here -- Do not remove this comment. */
+}
+
+/** Code for prefers reduced motion **/
+/* Make no changes below this line.
+   *************************************** 
+   */
+   @media screen and (prefers-reduced-motion: reduce){
+    /*Turn off scroll*/
+    html{
+      scroll-behavior: auto; /* Removes scroll animation */
+    }
+  
+    /*Turn off transition*/
+    a.skip {
+      -webkit-transition: initial; /* sets to default setting */
+      transition: initial; /* sets to default setting */
+    }
+  
+    /*Turn off parallax*/
+    .intro{
+      background-attachment: initial;
+    }
+  }
